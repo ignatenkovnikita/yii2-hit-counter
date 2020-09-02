@@ -3,7 +3,7 @@
 //Example
 ////////////
 ?>
-<script type="text/javascript" >
+<script>
     // (function (d, w, c) {
     //     var n = d.getElementsByTagName("script")[0],
     //         s = d.createElement("script"),
@@ -25,7 +25,7 @@
 console.log(document.getElementsByTagName("script")[0]);
 </script>
 
-    <!--LiveInternet counter--><script type="text/javascript">
+    <!--LiveInternet counter--><script>
 document.write(
     '<a 
     href="//www.liveinternet.ru/click" '+
@@ -47,20 +47,20 @@ screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
 
 <!-- hit.ua -->
 <a href='http://hit.ua/?x=70754' target='_blank'>
-<script type="text/javascript"><!--
+<script><!--
 Cd=document;Cr="&"+Math.random();Cp="&s=1";
 Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
 Cp+="&t="+(new Date()).getTimezoneOffset();
 if(self!=top)Cp+="&f=1";
 //--></script>
-<script type="text/javascript"><!--
+<script><!--
 if(navigator.javaEnabled())Cp+="&j=1";
 //--></script>
-<script type="text/javascript"><!--
+<script><!--
 if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
 screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
 //--></script>
-<script type="text/javascript"><!--
+<script><!--
 Cd.write("<img src='//c.hit.ua/hit?i=70754&g=0&x=2"+Cp+Cr+
 "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
 "' border='0' wi"+"dth='1' he"+"ight='1'/>");

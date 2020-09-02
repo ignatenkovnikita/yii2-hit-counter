@@ -40,10 +40,10 @@
 
 <?php //Speed profiling ?>
 <?php if(YII_DEBUG): ?>
-<script type="text/javascript">console.time('hitCounter-' + '<?= $counterId; ?>')</script>
+<script>console.time('hitCounter-' + '<?= $counterId; ?>')</script>
 <?php endif; ?>
 
-<script type="text/javascript"><!--
+<script><!--
 <?php
 
 /* Define Variables*/
@@ -70,18 +70,18 @@
 //--></script><?php
 
 
-?><script type="text/javascript"><!--
+?><script><!--
 if(Cn.javaEnabled())Cp+="&j=1";
 //--></script><?php
 
 
-?><script type="text/javascript"><!--
+?><script><!--
 if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
 screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
 //--></script><?php
 
 
-?><script type="text/javascript"><!--
+?><script><!--
 Cd.write("<img src='<?= $imgSrc; ?>?i=<?= $counterId; ?>"+Cp+Cr+
 "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+<?php
 
@@ -96,5 +96,5 @@ Cd.write("<img src='<?= $imgSrc; ?>?i=<?= $counterId; ?>"+Cp+Cr+
 
 <?php //Speed profiling ?>
 <?php if(YII_DEBUG): ?>
-<script type="text/javascript">console.timeEnd('hitCounter-' + '<?= $counterId; ?>');</script>
+<script>console.timeEnd('hitCounter-' + '<?= $counterId; ?>');</script>
 <?php endif; ?>
