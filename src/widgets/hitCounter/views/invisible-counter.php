@@ -70,12 +70,12 @@
 //--></script><?php
 
 
-?><script language="javascript1.1" type="text/javascript"><!--
+?><script type="text/javascript"><!--
 if(Cn.javaEnabled())Cp+="&j=1";
 //--></script><?php
 
 
-?><script language="javascript1.2" type="text/javascript"><!--
+?><script type="text/javascript"><!--
 if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
 screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
 //--></script><?php
