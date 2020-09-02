@@ -47,7 +47,7 @@ screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
 
 <!-- hit.ua -->
 <a href='http://hit.ua/?x=70754' target='_blank'>
-<script language="javascript" type="text/javascript"><!--
+<script type="text/javascript"><!--
 Cd=document;Cr="&"+Math.random();Cp="&s=1";
 Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
 Cp+="&t="+(new Date()).getTimezoneOffset();
@@ -60,7 +60,7 @@ if(navigator.javaEnabled())Cp+="&j=1";
 if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
 screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
 //--></script>
-<script language="javascript" type="text/javascript"><!--
+<script type="text/javascript"><!--
 Cd.write("<img src='//c.hit.ua/hit?i=70754&g=0&x=2"+Cp+Cr+
 "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
 "' border='0' wi"+"dth='1' he"+"ight='1'/>");
