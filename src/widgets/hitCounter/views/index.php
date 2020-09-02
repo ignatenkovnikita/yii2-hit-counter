@@ -53,10 +53,10 @@ Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
 Cp+="&t="+(new Date()).getTimezoneOffset();
 if(self!=top)Cp+="&f=1";
 //--></script>
-<script language="javascript1.1" type="text/javascript"><!--
+<script type="text/javascript"><!--
 if(navigator.javaEnabled())Cp+="&j=1";
 //--></script>
-<script language="javascript1.2" type="text/javascript"><!--
+<script type="text/javascript"><!--
 if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
 screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
 //--></script>
